@@ -147,3 +147,4 @@ npm run build
 npm run start --workspace backend
 npm run seed:realistic --workspace backend
 ```
+# full-stack
