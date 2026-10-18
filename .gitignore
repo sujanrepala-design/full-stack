@@ -1,0 +1,10 @@
+node_modules
+dist
+.env
+backend/data
+backend/uploads
+*.log
+.DS_Store
+
+# Uploaded submissions; keep out of Git
+backend/private-uploads/

@@ -1,0 +1,81 @@
+.cycle-context{display:flex;align-items:center;gap:14px;margin:-12px 0 22px;padding:15px 18px}
+.cycle-context>div{display:grid;gap:3px;flex:1}
+.cycle-context>div b{font-size:13px}
+.cycle-context small{font-size:11px;color:#85869a}
+.cycle-context .tag{border:0;background:#f0edff;color:#5141bb;white-space:nowrap}
+.cycle-context-icon,.empty-workspace-icon{width:38px;height:38px;border-radius:9px;background:#efedff;color:#6657db;display:grid;place-items:center;flex:none}
+.student-overview-grid{display:grid;grid-template-columns:1fr 1fr;align-items:start;gap:18px}
+.next-steps,.student-team-workspace{padding:22px}
+.student-task{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;padding:15px 0;border-top:1px solid #f0f0f5}
+.student-task>div{display:grid;gap:3px}
+.student-task>div b{font-size:13px}
+.student-task>div small{font-size:11px;color:#85869a}
+.student-task .secondary{font-size:11px;padding:8px 10px;white-space:nowrap}
+.task-status{font-size:9px;text-transform:uppercase;letter-spacing:.5px;font-weight:700;border-radius:20px;padding:5px 8px;white-space:nowrap}
+.task-status.complete{color:#168d76;background:#e5f8f2}
+.task-status.pending{color:#b16b2d;background:#fff2e7}
+.student-team-workspace .card-head{align-items:flex-start}
+.workspace-project{display:grid;gap:4px;padding:12px;background:#f8f7fd;border-radius:8px}
+.workspace-project small,.workspace-members>b{color:#77788a;font-size:10px;letter-spacing:.7px;text-transform:uppercase}
+.workspace-project b{font-size:14px}
+.workspace-members{display:grid;gap:8px;margin-top:17px}
+.workspace-member{display:flex;gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid #f0f0f5}
+.workspace-member>span:nth-child(2){display:grid;gap:2px;flex:1}
+.workspace-member>span b{font-size:12px}
+.workspace-member small{font-size:10px;color:#85869a}
+.leader-tag{font-size:9px;font-weight:700;color:#5141bb;background:#efedff;border-radius:20px;padding:5px 7px}
+.faculty-feedback{position:relative;display:grid;gap:5px;border-top:1px solid #f0f0f5;margin-top:14px;padding-top:13px}
+.faculty-feedback>b{font-size:12px}
+.faculty-feedback p,.faculty-feedback>small{font-size:11px;color:#77788a}
+.marks-badge{justify-self:start;color:#168d76;background:#e5f8f2;font-size:10px;font-weight:700;border-radius:5px;padding:4px 7px}
+.empty-team-prompt{display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+.empty-team-prompt h3{font-size:17px}
+.empty-team-prompt p{font-size:12px;color:#85869a}
+.empty-team-prompt .link{padding-left:0}
+.student-overview-grid .status{white-space:nowrap}
+.submission-file-status{display:grid;gap:7px}
+.submission-file-status>span{display:flex;justify-content:space-between;gap:10px;padding:8px 10px;border-radius:6px;background:#f8f8fc;font-size:11px}
+.submission-file-status em{font-style:normal;font-size:10px;font-weight:700}
+.file-accepted{color:#168d76}
+.file-pending{color:#b16b2d}
+.submission-confirmation{display:flex;align-items:center;gap:8px}
+.leader-inline{color:#6556d2;font-size:10px}
+.team-project-status{font-size:11px;color:#85869a;margin-top:6px}
+.cycle-form-context{display:grid;gap:3px;padding:12px 14px;border:1px solid #e7e4fa;background:#fbfaff;border-radius:7px}
+.cycle-form-context b{font-size:12px;color:#5141bb}
+.cycle-form-context small{font-size:11px;color:#85869a}
+.form-grid .notice{display:grid;gap:4px}
+.form-grid .notice span{font-size:12px}
+.cycle-selector{display:grid;gap:3px}
+.cycle-selector>small{font-size:9px!important;letter-spacing:.5px;text-transform:uppercase}
+.cycle-selector select{max-width:min(42vw,360px);font-size:12px;padding:8px 10px}
+.open-team-option{display:flex;grid-template-columns:auto 1fr;align-items:flex-start;gap:10px;padding:12px;border:1px solid #e7e4fa;background:#fbfaff;border-radius:7px}
+.open-team-option input{margin:2px 0 0;accent-color:#6657db}
+.open-team-option span{display:grid;gap:3px}
+.open-team-option b{font-size:12px;color:#5141bb}
+.open-team-option small,.join-team-action small{font-size:10px;color:#85869a}
+.join-team-action{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:12px;padding:10px;background:#fbfaff;border-radius:7px}
+.join-team-action .secondary{font-size:11px;padding:8px 10px}
+.team-budget{display:grid;gap:12px;margin-top:16px;padding:13px;border:1px solid #e9e6fb;border-radius:8px;background:#fcfbff}
+.team-budget-head b{display:block;font-size:13px}
+.team-budget-head small,.budget-expense>small,.budget-empty{font-size:10px;color:#85869a}
+.expense-form{display:grid;gap:9px}
+.expense-form label{font-size:10px}
+.expense-form input,.expense-form select{padding:8px 9px;font-size:11px}
+.expense-form-row{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.expense-form .secondary{justify-self:start;padding:8px 10px;font-size:11px}
+.budget-expense-list{display:grid;gap:9px}
+.budget-expense{display:grid;gap:5px;padding:10px;background:#fff;border:1px solid #efedf7;border-radius:7px}
+.budget-expense-title{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.budget-expense-title b{font-size:11px}
+.budget-expense-title strong{font-size:11px;color:#5141bb}
+.expense-splits{display:grid;gap:4px;margin-top:3px}
+.expense-splits span{display:flex;justify-content:space-between;gap:8px;color:#77788a;font-size:10px}
+.expense-splits b{color:#20233a}
+.withdraw-form{display:grid;gap:9px;margin-top:15px;padding:13px;border:1px solid #f0d9dc;border-radius:8px;background:#fffafb}
+.withdraw-form>b{font-size:12px;color:#8d3444}
+.withdraw-form>small,.withdraw-form label{font-size:10px;color:#77788a}
+.withdraw-form input,.withdraw-form select,.withdraw-form textarea{padding:8px 9px;font-size:11px}
+.withdraw-form .withdraw-button{justify-self:start;padding:8px 11px;font-size:11px;color:#9a3444;border-color:#e8c5cb}
+@media(max-width:1050px){.student-overview-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.cycle-context{align-items:flex-start;flex-wrap:wrap}.cycle-context .tag{margin-left:52px}.student-task{grid-template-columns:auto 1fr}.student-task>.secondary{grid-column:2;justify-self:start}.student-overview-grid .card-head{gap:8px}.student-overview-grid .status{font-size:8px}.expense-form-row{grid-template-columns:1fr}}
